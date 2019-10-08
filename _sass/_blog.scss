@@ -19,6 +19,12 @@
   grid-column: sidebar;
 }
 
+.post-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 56rem) {
     .blog-layout {
       display: grid;

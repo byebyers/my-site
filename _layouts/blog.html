@@ -4,16 +4,25 @@ layout: default
 <div class="blog-container blog-layout">
   <aside class="">
     Bith lasagna
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   </aside>
   <article>
     {% for post in site.posts %}
     <div class="post-contents">
-      <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
-      <p>{{ post.sub_heading }}</p>
-      <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
-      <hr>
+      <div>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <h1>{{ post.title }}</h1>
+          <p>{{ post.sub_heading }}</p>
+        </a>
+      </div>
+      <div>
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+        <div>
+          {{ post.categories }}
+        </div>
+      </div>
     </div>
+    <hr>
     {% endfor %}
   </article>
 </div>
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
