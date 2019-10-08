@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+sub_heading: Getting started with the best static site generator EVER!
 date:   2019-10-03 15:31:59 -0700
 categories: jekyll update
 ---
