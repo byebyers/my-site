@@ -1,0 +1,22 @@
+.post {
+  display: grid;
+  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem, 1fr);
+}
+
+/* position text paragraphs into the second (middle) column */
+article div {
+  grid-column: 2;
+}
+
+article a {
+  color: white;
+  text-decoration: none;
+}
+
+/* position images to take up all three columns */
+article img {
+  grid-column: 1 / 4;
+  width: 100%;
+  max-width: 100ch;
+  justify-self: center;
+}
