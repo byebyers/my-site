@@ -1,0 +1,9 @@
+body {
+  color: white;
+  background-color: #333;
+}
+
+.main-content {
+  min-height: calc(100vh - 417.7px);
+  min-height: calc((var(--vh, 1vh) * 100) - 417.7px);
+}

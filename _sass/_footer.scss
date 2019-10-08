@@ -1,0 +1,21 @@
+footer {
+  padding: 3rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-info {
+  display: grid;
+  grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: left;
+}
+
+.copy-right {
+  margin: 4rem 0 0 0;
+  grid-column: span 100%;
+  text-align: center;
+  column: span 3;
+}

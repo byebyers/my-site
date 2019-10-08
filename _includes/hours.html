@@ -1,0 +1,12 @@
+{% comment %}
+  Displays the address from _data/hours.yml properly formatted
+{% endcomment %}
+
+{% if site.data.hours %}
+{% assign time = site.data.hours %}
+<p>
+  MON-THURS: {% if time.MON-THURS %}{{ time.MON-THURS }}<br />{% endif %}
+  FRI-SAT: {% if time.FRI-SAT %}{{ time.FRI-SAT }}<br />{% endif %}
+  SUN: {% if time.SUN %}{{ time.SUN }}<br />{% endif %}
+</p>
+{% endif %}
