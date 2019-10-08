@@ -15,11 +15,6 @@ article div {
   grid-column: 2;
 }
 
-article a {
-  color: white;
-  text-decoration: none;
-}
-
 /* position images to take up all three columns */
 article img {
   grid-column: 1 / 4;
