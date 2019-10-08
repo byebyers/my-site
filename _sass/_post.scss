@@ -3,6 +3,10 @@
   grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem, 1fr);
 }
 
+.post-contents {
+  width: 40rem;
+}
+
 /* position text paragraphs into the second (middle) column */
 article div {
   grid-column: 2;
