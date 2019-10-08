@@ -1,5 +1,9 @@
 .about-layout {
   position: fixed;
-  bottom: 3rem;
-  font-size: 2rem;
+  bottom: 5rem;
+  font-size: 3rem;
+}
+
+.about-layout > p {
+  max-width: 60rem;
 }

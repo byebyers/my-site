@@ -6,9 +6,8 @@ menu:
     weight: 2
 
 ---
-Hi, I'm Julio Cesar!
+Hi, I'm Jacob Byers!
 
 
-A Brazilian creative developer based in Barcelona, focused on digital interactive experiences. I’ve worked for international organizations such as the United Nations, WEF, WHO, EBU and many others.
-Passionate about technology, traveling and sports.
-2x Webby Awards winner.
+An American creative developer based in Arizona, focused on digital interactive experiences. I’ve worked with local companies such as Front Pourch Brewing, Deneau Law Firm, Hubble LLC, and many others.
+Passionate about technology, philosophy, and the outdoors.
