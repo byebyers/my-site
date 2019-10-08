@@ -1,8 +1,3 @@
-.blog-container {
-  margin: 0 auto;
-  padding: 0 3rem;
-}
-
 .blog-layout {
   display: grid;
   grid-template-columns: 220px auto;
@@ -32,9 +27,6 @@
       grid-column-gap: 45px;
       grid-template-areas: "main";
       max-width: 1200px;
-    }
-    .blog-container {
-      padding: 0;
     }
     .blog-layout > aside {
       display: none;

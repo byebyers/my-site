@@ -8,7 +8,19 @@ a {
   text-decoration: none;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+
 .main-content {
   min-height: calc(100vh - 417.7px);
   min-height: calc((var(--vh, 1vh) * 100) - 417.7px);
+  padding: 0 3rem;
+}
+
+@media only screen and (max-width: 56rem) {
+  .main-content {
+    padding: 0;
+  }
 }
