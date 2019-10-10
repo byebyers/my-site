@@ -12,12 +12,19 @@
 
 .blog-layout > aside {
   grid-column: sidebar;
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  grid-row-gap: .5rem;
 }
 
 .post-contents {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.post-info {
+  text-align: right;
 }
 
 @media only screen and (max-width: 56rem) {
@@ -31,4 +38,58 @@
     .blog-layout > aside {
       display: none;
     }
+}
+
+.catebutton {
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #999;
+  padding: .3rem .5rem;
+}
+
+.AWS {
+  background-color: #FF6F61;
+  color: white;
+}
+
+.Jekyll {
+  background-color: #6B5B95;
+  color: white;
+}
+
+.JavaScript {
+  background-color: #9B1B30;
+  color: white;
+}
+
+.HTML {
+  background-color: #5A3E36;
+  color: white;
+}
+
+.CSS {
+  background-color: #2A4B7C;
+  color: white;
+}
+
+.Git {
+  background-color: #577284;
+  color: white;
+}
+
+.GraphQL {
+  background-color: #264E36;
+  color: white;
+}
+
+.Node.js {
+  background-color: #797B3A;
+  color: white;
+}
+
+.React {
+  background-color: #FFD662;
+  color: black;
 }
