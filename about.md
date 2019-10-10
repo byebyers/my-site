@@ -9,6 +9,6 @@ menu:
 ---
 Hi, I'm Jacob Byers!
 
-An American creative developer based in Arizona, focused on digital manefestations. I’ve worked with local companies such as Front Pourch Brewing, Deneau Law Firm, Hubble LLC, and many others.
+An American creative developer based in Arizona, focused on digital UX/UI experiences. I’ve worked with local companies such as Front Pourch Brewing, Deneau Law Firm, Hubble LLC, and many others.
 
-Passionate about technology, spirituality, and the outdoors.
+Passionate about technology, philosophy, and the outdoors.
