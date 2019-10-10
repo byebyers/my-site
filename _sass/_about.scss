@@ -1,16 +1,16 @@
 .about-layout {
   display: grid;
-  height: 100%;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto;
 }
 
-.about-layout > div:nth-child(even) {
-  background-color: red;
+.about-content {
+  position: fixed;
+  bottom: 1rem;
+  max-width: 55vw;
 }
 
 .about-content > p {
   font-size: 2.1vw;
-  max-width: 55vw;
 }
 
 .about-img {
@@ -22,16 +22,34 @@
   width: 100%;
   height: auto;
   max-width: 20vw;
-  right: 6rem;
+  right: 20%;
   border-radius: 100%;
 }
 
 @media only screen and (max-width: 56rem) {
   .about-layout {
   }
+  .about-img {
+    height: inherit;
+    margin: 3rem 0 0 0;
+    padding: 1rem;
+  }
+  .about-img > img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: inherit;
+    right: inherit;
+    border-radius: 100%;
+  }
+  .about-content {
+    max-width: 100%;
+    position: relative;
+    bottom: inherit;
+    margin: 3rem 0 0 0;
+  }
   .about-content > p {
     font-size: 1.375em;
-    max-width: 100%;
     padding: 0 1rem 0 0;
   }
 }
