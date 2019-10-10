@@ -6,7 +6,7 @@ layout: default
     <p>Hello 👋🏼 and welcome to my blog! I write tutorials for Jekyll and Web Developers</p>
     <hr>
     {% for category in site.categories %}
-      <p>{{ category | first }}</p>{% unless forloop.last %}{% endunless %}
+      <button class="catebutton">{{ category | first }}</button>{% unless forloop.last %}{% endunless %}
     {% endfor %}
     <hr>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
