@@ -24,6 +24,12 @@ print_hi('Tom')
 \#=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+{% highlight javascript%} 
+
+console.log("lalalala")
+
+{% endhighlight %}
+
 javascript\`\`\`
 
 console.log("lalalala")
