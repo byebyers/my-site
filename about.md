@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+profile-picture: "/assets/img/prof.jpg"
 menu:
   navigation:
     weight: 2

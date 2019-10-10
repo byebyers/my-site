@@ -1,18 +1,36 @@
 .about-layout {
-  position: fixed;
-  bottom: 5vh;
-  font-size: 2.1vw;
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto;
 }
 
-.about-layout > p {
+.about-layout > div:nth-child(even) {
+  background-color: red;
+}
+
+.about-content > p {
+  font-size: 2.1vw;
   max-width: 55vw;
+}
+
+.about-img {
+  height: 30vh;
+}
+
+.about-img > img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  max-width: 20vw;
+  right: 6rem;
+  border-radius: 100%;
 }
 
 @media only screen and (max-width: 56rem) {
   .about-layout {
-    font-size: 1.375em;
   }
-  .about-layout > p {
+  .about-content > p {
+    font-size: 1.375em;
     max-width: 100%;
     padding: 0 1rem 0 0;
   }
