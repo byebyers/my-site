@@ -18,3 +18,5 @@ fields:
 - type: list
   name: categories
   label: categories
+pages:
+- _posts/test-1.md
