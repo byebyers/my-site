@@ -21,6 +21,23 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.post-contents:hover {
+  background-color: #404040;
+}
+
+.post-title {
+  margin: 3rem 0 0 0;
+}
+
+.post-sub {
+  margin: .5rem 0 1rem 0;
+}
+
+.post-subheader {
+  margin: 2rem 0;
 }
 
 .post-info {

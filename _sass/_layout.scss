@@ -2,18 +2,14 @@ body {
   color: white;
   background-color: #333;
   font-family:  p22-underground, sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
-h1 h3 h5 {
-  font-family: p22-underground, sans-serif;
+h1, h3, h5 {
   font-weight: 900;
   font-style: bold;
 }
 
-h2 h4 h6 {
-  font-family: p22-underground, sans-serif;
+h2, h4, h6 {
   font-weight: 300;
   font-style: normal;
 }
@@ -23,7 +19,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -32,6 +28,11 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+}
+
+p {
+  font-weight: 400;
+  font-style: normal;
 }
 
 .name-title {
@@ -45,6 +46,24 @@ h4 {
 a {
   color: white;
   text-decoration: none;
+}
+
+figure {
+  margin: 1rem 0;
+}
+
+pre {
+  margin: 0;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: white;
+  border-width: medium;
+  background-color: #282a36;
+  padding: 1.5rem;
+}
+
+code {
+  font-size: 1rem;
 }
 
 .container {

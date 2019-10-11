@@ -19,20 +19,20 @@ layout: default
   </aside>
   <article>
     {% for post in site.posts %}
-    <div class="post-contents">
-      <div>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <h3>{{ post.title }}</h3>
-          <h4>{{ post.sub_heading }}</h4>
-        </a>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <div class="post-contents">
+        <div>
+          <h3 class="post-title">{{ post.title }}</h3>
+          <h4 class="post-sub">{{ post.sub_heading }}</h4>
+        </div>
+        <div class="post-info">
+          <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+          <button class="catebutton {{ post.categories }}">
+            {{ post.categories }}
+          </button>
+        </div>
       </div>
-      <div class="post-info">
-        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
-        <button class="catebutton {{ post.categories }}">
-          {{ post.categories }}
-        </button>
-      </div>
-    </div>
+    </a>
     <hr>
     {% endfor %}
   </article>
