@@ -6,10 +6,32 @@ body {
   font-style: normal;
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1 h3 h5 {
   font-family: p22-underground, sans-serif;
   font-weight: 900;
   font-style: bold;
+}
+
+h2 h4 h6 {
+  font-family: p22-underground, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 
 .name-title {
