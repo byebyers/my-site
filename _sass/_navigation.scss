@@ -35,7 +35,7 @@ header h3 {
 }
 .menu-button:hover,
 .menu-button.active {
-  background-color: teal;
+  background-color: #aa1bbe;
 }
 .menu-button:hover .menu-bar,
 .menu-button.active .menu-bar {
@@ -54,7 +54,7 @@ header h3 {
   width: 0;
   height: 0;
   position: fixed;
-  background-color: #ccffff;
+  background-color: #d52af2;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
