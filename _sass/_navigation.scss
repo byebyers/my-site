@@ -9,6 +9,14 @@ header h3 {
   text-align: center;
 }
 
+@media only screen and (max-width: 56rem) {
+    header {
+      padding: 0;
+    }
+}
+
+
+
 
 
 .menu-button {

@@ -1,6 +1,6 @@
 body {
   color: white;
-  background-color: #000;
+  background-color: #1e1e1e;
   font-family:  p22-underground, sans-serif;
 }
 
@@ -80,5 +80,8 @@ code {
 @media only screen and (max-width: 56rem) {
   .main-content {
     padding: 0 1rem;
+  }
+  .name-title {
+    padding: 1rem 0 0 0;
   }
 }
