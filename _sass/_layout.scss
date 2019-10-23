@@ -75,6 +75,7 @@ code {
   min-height: calc(100vh - 114px);
   min-height: calc((var(--vh, 1vh) * 100) - 140px);
   padding: 0 3rem;
+  margin: 2rem 0 0 0;
 }
 
 @media only screen and (max-width: 56rem) {
