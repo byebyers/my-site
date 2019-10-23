@@ -1,0 +1,20 @@
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(.5rem, 1fr) minmax(auto, 8  0vw) minmax(.5rem, 1fr);
+  height: 60%;
+}
+
+.contact-content {
+  grid-column: 2;
+  align-self: center;
+}
+
+.contact-content > h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.contact-social > a {
+  display: inline-block;
+  margin: 2rem 2rem 0 0;
+}

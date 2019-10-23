@@ -1,0 +1,15 @@
+{% comment %}
+  Displays the address from _data/social.yml properly formatted
+{% endcomment %}
+
+{% if site.data.information %}
+{% assign soc = site.data.information %}
+
+{% if soc.phone and soc.phone != "" %}<a href="{{ soc.phone }}" target="_blank">{{ soc.phone }}</a>{% endif %}
+{% if soc.email and soc.email != "" %}<a href="{{ soc.email }}" target="_blank">{{ soc.email }}</a>{% endif %}
+{% if soc.twitter and soc.twitter != "" %}<a href="{{ soc.twitter }}" target="_blank">Twitter</a>{% endif %}
+{% if soc.behance and soc.behance != "" %}<a href="{{ soc.behance }}" target="_blank">Behance</a>{% endif %}
+{% if soc.linkedin and soc.linkedin != "" %}<a href="{{ soc.linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+{% if soc.github and soc.github != "" %}<a href="{{ soc.github }} target="_blank"">Github</a>{% endif %}
+
+{% endif %}
