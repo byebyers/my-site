@@ -3,6 +3,12 @@
   grid-template-columns: minmax(.5rem, 1fr) minmax(auto, 50rem) minmax(.5rem, 1fr);
 }
 
+.post-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 0 0 8rem 0;
+}
+
 /* position text paragraphs into the second (middle) column */
 article div {
   grid-column: 2;
