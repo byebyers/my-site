@@ -10,7 +10,14 @@ layout: default
       {% for item in job.tags %}
       <span class="work-tags">{{ item }}</span>
       {% endfor %}
-      <p><a href="{{ job.web_address }}" target="_blank">Visit Site</a></p>
+      <p>
+        <span class="work-tags">
+          <a href="{{ job.web_address }}" target="_blank">Visit Site</a>
+        </span>
+        <span class="work-tags">
+          {% if job.behance and job.behance != "" %}<a href="{{ job.behance }}" target="_blank">Behance Showcase</a>{% endif %}
+        </span>
+      </p>
     </div>
     <div class="work-banner"
 				{% if job.banner_image and job.banner_image != "" %}
