@@ -11,10 +11,14 @@
 }
 
 .star {
-  grid-area: span 1;
-  align-self: center;
   width: 80vw;
   text-align: center;
+  align-self: center;
+}
+
+#bm {
+  grid-row: 1;
+  height: 80vw;
 }
 
 
@@ -27,4 +31,9 @@
     align-self: center;
     width: 20vw;
   }
+  #bm {
+    grid-row: 1;
+    height: 20vw;
+  }
+
 }
