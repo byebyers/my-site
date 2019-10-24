@@ -16,3 +16,8 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: web_address
+  type: text
+  config:
+    required: false
+  label: Web Address
