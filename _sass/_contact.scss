@@ -1,7 +1,7 @@
 .contact-layout {
   display: grid;
   grid-template-columns: minmax(.5rem, 1fr) minmax(auto, 80vw) minmax(.5rem, 1fr);
-  height: 60%;
+  height: 60vh;
 }
 
 .contact-content {
