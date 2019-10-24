@@ -7,13 +7,17 @@ sections:
 - type: document
   path: _data/information.yml
   label: Info
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: _work
+  label: Work
+  create: none
+  match: "*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
