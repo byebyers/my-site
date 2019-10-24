@@ -21,3 +21,5 @@ fields:
   config:
     required: false
   label: Web Address
+pages:
+- _work/ohmni-tech.md
