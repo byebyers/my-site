@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="container">
+  <article class="work-content">
+    {% for job in site.work %}
+    <h1>{{ job.title }}</h1>
+    {% endfor %}
+  </article>
+</div>

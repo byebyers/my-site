@@ -40,6 +40,9 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default" # this ensures all content renders with layouts/default.html
+collections:
+  work:
+    output: true
 
 sass:
   style: compressed
