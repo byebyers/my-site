@@ -18,6 +18,8 @@ sections:
   label: Work
   create: none
   match: "*"
+  templates:
+  - work
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
