@@ -9,7 +9,7 @@ layout: default
     <div>
       <hr>
       {% for category in site.categories %}
-        <button class="catebutton {{category | first}}">{{ category | first }}</button>{% unless forloop.last %}{% endunless %}
+        <button class="catebutton {{category | first}}" aria-label="{{category | first}}">{{ category | first }}</button>{% unless forloop.last %}{% endunless %}
       {% endfor %}
     </div>
     <div>
@@ -27,7 +27,7 @@ layout: default
         </div>
         <div class="post-info">
           <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
-          <button class="catebutton {{ post.categories }}">
+          <button class="catebutton {{ post.categories }}" aria-label="{{ post.categories }}">
             {{ post.categories }}
           </button>
         </div>

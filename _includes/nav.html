@@ -5,56 +5,9 @@
 {% assign url = page.url | remove:'index.html' %}
 
 <header>
-	<!--
-  <div class="container">
-      <h1 class="logo align-middle">
-        <a href="/" aria-label="Home">{{ site.title }}</a>
-      </h1>
-			<button class="navbar-toggler z-index-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent1">
-        <ul class="navigation navbar-nav navbar-right">
-          {% for link in site.menus.navigation %}
-          <li class="{% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %} ml-3">
-            {% if link.children %}
-            <ul class="first-level">
-              {% for child in link.children %}
-              <li>
-                {% if child.children %}
-                <ul class="second-level">
-                  {% for child in child.children %}
-                  <li>
-                    <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
-                  </li>
-                  {% endfor %}
-                </ul>
-                {% endif %}
-                <a href="{{ child.url | absolute_url }}"{% if child.target %} target="_blank" {% endif %}>
-                  {{ child.title }}
-                  {% if child.childen %}
-                    <i class='icon-right-dir-2'></i>
-                  {% endif %}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-            <a href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
-                  {{ link.title }}
-                  {% if link.childen %}
-                    <i class='icon-chevron-down'></i>
-                  {% endif %}
-                </a>
-          </li>
-          {% endfor %}
-        </ul>
-    </div>
-  </div>
-	-->
 
 
-	<button class="menu-button">
+	<button class="menu-button" aria-label="Menu Button">
 	  <div class="menu-bar"></div>
 	  <div class="menu-bar"></div>
 	  <div class="menu-bar"></div>
