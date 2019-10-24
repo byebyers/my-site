@@ -1,4 +1,18 @@
 ---
 label: Work
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: banner
+  type: file
+  config:
+    maxSize: 250
+  label: Banner
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
