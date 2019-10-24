@@ -12,7 +12,10 @@
 
 .work-feature {
   align-self: center;
-  grid-column: 1;
+}
+
+.work-feature > p {
+  text-decoration: underline;
 }
 
 .work-feature > h3 {
@@ -36,9 +39,6 @@
   .work-content {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-  }
-  .work-feature {
-    grid-column: 2;
   }
   .work-banner {
     height: 10rem;

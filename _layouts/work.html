@@ -10,15 +10,16 @@ layout: default
       {% for item in job.tags %}
       <span class="work-tags">{{ item }}</span>
       {% endfor %}
+      <p><a href="{{ job.web_address }}" target="_blank">Visit Site</a></p>
     </div>
-    <a href="{{ job.web_address }}" target="_blank"><div class="work-banner"
+    <div class="work-banner"
 				{% if job.banner_image and job.banner_image != "" %}
 				style="background-image: url('{{ job.banner_image | absolute_url }}')"
 				{% else %}
 				style="background-image: url('{{ '/img/placeholder.png' | absolute_url }}')"
 				{% endif %}
 				title="{{ page.title }}">
-		</div></a>
+		</div>
     {% endfor %}
   </article>
 </div>
