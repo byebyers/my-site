@@ -16,7 +16,7 @@ sections:
 - type: directory
   path: _work
   label: Work
-  create: none
+  create: documents
   match: "*"
   templates:
   - work
