@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="container work-layout">
+  {% for job in site.work %}
   <article class="work-content">
-    {% for job in site.work %}
     <div class="work-feature">
       <h3>{{ job.title }}</h3>
       {% for item in job.tags %}
@@ -20,6 +20,6 @@ layout: default
 				{% endif %}
 				title="{{ page.title }}">
 		</div>
-    {% endfor %}
   </article>
+  {% endfor %}
 </div>

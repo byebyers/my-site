@@ -10,7 +10,7 @@
 }
 
 /* position text paragraphs into the second (middle) column */
-.post div {
+.post-div {
   grid-column: 2;
 }
 
@@ -20,4 +20,10 @@ article img {
   width: 100%;
   max-width: 100ch;
   justify-self: center;
+}
+
+@media only screen and (max-width: 56rem) {
+  .post-div {
+    width: 85vw;
+  }
 }
