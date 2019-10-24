@@ -8,6 +8,7 @@
   grid-column: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 0 0 10rem 0;
 }
 
 .work-feature {
@@ -23,7 +24,7 @@
 }
 
 .work-banner {
-  height: 32rem;
+  height: 36rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,9 +41,10 @@
     padding: 2rem 0;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    margin: 0;
   }
   .work-banner {
-    height: 10rem;
+    height: 14rem;
     grid-row: 1;
   }
 }
