@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Title
-- name: banner
+- name: banner_image
   type: file
   config:
     maxSize: 250
