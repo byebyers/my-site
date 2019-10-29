@@ -14,7 +14,7 @@ Not only that but before rendering happens, the site communicates with every plu
 
 Then, when you are fed up with this system, you realize how painstaking it will be to move your content elsewhere. Like copy and pasting your posts. This is because at first, we find that using site builders may seem easy and there are plenty of them out there. Don't get me wrong, I love the idea of site builders but over time you may find yourself stuck in a walled garden. I found myself in this position when using SquareSpace. When I decided to try to move elsewhere I found myself with a huge problem. Both content and the domain resided on their servers so I could not move them to another system. The domain transfer, for example, I had to go through a month-long process to get it moved. My site even ended up going down for several days and it was awful!
 
-## **Benefits of using static site generators**
+### **Benefits of using static site generators**
 
 To give a quick summary I would say that a static site generator takes the content, applies it to your template theme, then creates a static website. They are fast, secure in nature, and don't depend on a database to render content. Of course, they reside on a server but everything is already built and is served before the user visits. Only updating when you change or add more content. It is simple and there is a big benefit to this. Your content resides as text files in your repository. Enabling you to connect to any of the large numbers of headless CMSs. Fed up with one? You can move to another. Want to use a separate host for your images to have better pricing? No problem! Want to use Github for free version control? You can do that!
 
