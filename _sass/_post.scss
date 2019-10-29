@@ -14,6 +14,10 @@
   grid-column: 2;
 }
 
+.post-div > h3 {
+  padding: 2rem 0 0 0;
+}
+
 /* position images to take up all three columns */
 article img {
   grid-column: 1 / 4;
