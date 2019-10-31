@@ -1,6 +1,6 @@
 ---
 title: Front Pourch Brewing
-banner_image: "/uploads/menu-vid.mp4"
+banner_image: "/uploads/iPad Pro Design Mockup 1.jpg"
 tags:
 - Jekyll
 - AWS
