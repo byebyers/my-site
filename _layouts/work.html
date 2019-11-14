@@ -25,7 +25,13 @@ layout: default
       {% else %}
       src="{{ '/img/placeholder.png' | absolute_url }}"
       {% endif %}
-      title="{{ page.title }}" alt="">
+      title="{{ page.title }}" alt="{{ job.title }} cover photo">
+      <video {% if job.video and job.video != "" %}
+      src="{{ job.video | absolute_url }}"
+      {% else %}
+      src="{{ '/img/placeholder.png' | absolute_url }}"
+      {% endif %} autoplay poster="posterimage.jpg">
+      </video>
     </div>
   </article>
   {% endfor %}
