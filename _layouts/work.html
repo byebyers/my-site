@@ -19,14 +19,14 @@ layout: default
         </span>
       </p>
     </div>
-    <div class="work-banner"
-				{% if job.banner_image and job.banner_image != "" %}
-				style="background-image: url('{{ job.banner_image | absolute_url }}')"
-				{% else %}
-				style="background-image: url('{{ '/img/placeholder.png' | absolute_url }}')"
-				{% endif %}
-				title="{{ page.title }}">
-		</div>
+    <div class="work-banner">
+      <img {% if job.banner_image and job.banner_image != "" %}
+      src="{{ job.banner_image | absolute_url }}"
+      {% else %}
+      src="{{ '/img/placeholder.png' | absolute_url }}"
+      {% endif %}
+      title="{{ page.title }}" alt="">
+    </div>
   </article>
   {% endfor %}
 </div>
