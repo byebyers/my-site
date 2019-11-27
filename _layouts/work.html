@@ -30,7 +30,7 @@ layout: default
       src="{{ job.video | absolute_url }}"
       {% else %}
       src="{{ '/img/placeholder.png' | absolute_url }}"
-      {% endif %} autoplay loop poster="{{ job.banner_image | absolute_url }}" type="video/mp4">
+      {% endif %} autoplay="true" loop="true" poster="{{ job.banner_image | absolute_url }}" type="video/mp4">
       </video>
     </div>
   </article>
