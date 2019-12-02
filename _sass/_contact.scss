@@ -18,3 +18,9 @@
   display: inline-block;
   margin: 2rem 2rem 0 0;
 }
+
+@media only screen and (max-width: 56rem) {
+  .contact-layout {
+    grid-template-columns: .5rem 1fr .5rem;
+  }
+}
