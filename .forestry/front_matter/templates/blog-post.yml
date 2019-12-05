@@ -39,6 +39,7 @@ fields:
       path: 
   label: categories
 pages:
+- _posts/how-i-save-my-keys-on-windows.md
 - _posts/what-is-a-static-site-generator.md
 - _posts/2019-10-30-find-freedom-with-a-static-site-generator.md
 - _posts/2019-10-03-test-3.md
