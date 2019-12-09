@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Services
-title: Find freedom with a Static Site Generator
+title: Find freedom with a Static Site Generator!
 sub_heading: Don't get stuck in a site builder's walled garden.
 date: 2019-10-30 15:00:00 +0000
 
