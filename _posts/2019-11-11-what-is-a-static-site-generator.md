@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Jekyll
-title: What is a Static Site Generator
+title: What is a Static Site Generator?
 sub_heading: Understanding the basics of these tools.
 date: 2019-11-11 17:00:00 -0700
 
