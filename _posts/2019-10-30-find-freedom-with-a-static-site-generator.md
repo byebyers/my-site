@@ -7,6 +7,11 @@ date: 2019-10-30T15:00:00.000+00:00
 
 ---
 
+<!-- iframe.snippet -->
+<div class="">
+<iframe class="" src="[https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4](https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4 "https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4")" allowfullscreen></iframe>
+</div>
+
 Running a content driven site can become bloated. Losing its appeal for version control, user permissions, and constant updates for plugins. Especially if using a Content Management System like Wordpress. And when your site becomes too large, migration can be an enormous headache for your team.
 
 Like most blogs, many run as Dynamic sites. Every time a user hits sites the page and content are pulled from a database and rendered in real-time. This adds complexity to what should be a simple process. I mean you are only looking at images and text anyway so why should this be rendered every time? Would it make more sense to have it available in the first place?
@@ -24,4 +29,4 @@ What about forms or subscription-based content? Can you even do that? The answer
 So with the simplicity of a static website you can focus most of your energy on your content. No more having to worry about depending on 3rd party services. Or the fact that you need to pay for version control for your database. And you can rest assured that in the long run, you have the ability to change without be having to break your site.
 
 Of course, this is not the best solution for everyone but it should be worth a closer look. There are many kinds of static site generators out there with their own perks and drawbacks. For anyone who wants to spread their resources, it can be a great tool to use across this tech landscape.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hYQ-lW_K4j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="[https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4](https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4 "https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
