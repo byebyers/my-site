@@ -6,8 +6,7 @@ sub_heading: Don't get stuck in a site builder's walled garden.
 date: 2019-10-30T15:00:00.000+00:00
 
 ---
-
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/hYQ-lW_K4j8](https://www.youtube.com/embed/hYQ-lW_K4j8 "https://www.youtube.com/embed/hYQ-lW_K4j8")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](/uploads/visual.gif)
 
 Running a content driven site can become bloated. Losing its appeal for version control, user permissions, and constant updates for plugins. Especially if using a Content Management System like Wordpress. And when your site becomes too large, migration can be an enormous headache for your team.
 
@@ -19,11 +18,10 @@ Then, when you are fed up with this system, you realize how painstaking it will 
 
 ### **Benefits of using static site generators**
 
-To give a quick summary I would say that a static site generator takes the content, applies it to your template theme, then creates a static website. They are fast, secure in nature, and don't depend on a database to render content. Of course, they reside on a server but everything is already built and is served before the user visits. Only updating when you change or add more content. It is simple and there is a big benefit to this. Your content resides as text files in your repository. Enabling you to connect to any of the large numbers of headless CMSs. Fed up with one? You can move to another. Want to use a separate host for your images to have better pricing? No problem! Want to use Github for free version control? You can do that!
+To give a quick summary I would say that a static site generator takes the content, applies it to your template them![](/uploads/visual.gif)e, then creates a static website. They are fast, secure in nature, and don't depend on a database to render content. Of course, they reside on a server but everything is already built and is served before the user visits. Only updating when you change or add more content. It is simple and there is a big benefit to this. Your content resides as text files in your repository. Enabling you to connect to any of the large numbers of headless CMSs. Fed up with one? You can move to another. Want to use a separate host for your images to have better pricing? No problem! Want to use Github for free version control? You can do that!
 
 What about forms or subscription-based content? Can you even do that? The answer is yes! There are plenty of services that provide those features like Netlify. I for example like using Lambda functions on AWS to run my forms for cents on the dollar! And think about this. Wouldn't you rather to use marketing software as you did with Wordpress? Well, chances are they have code snippets you can add to your site. Plus all the ones that don't have a Wordpress plugin. And with services like Google Tag Manager you can use all sorts of marketing and SEO tools.
 
 So with the simplicity of a static website you can focus most of your energy on your content. No more having to worry about depending on 3rd party services. Or the fact that you need to pay for version control for your database. And you can rest assured that in the long run, you have the ability to change without be having to break your site.
 
 Of course, this is not the best solution for everyone but it should be worth a closer look. There are many kinds of static site generators out there with their own perks and drawbacks. For anyone who wants to spread their resources, it can be a great tool to use across this tech landscape.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hYQ-lW_K4j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
