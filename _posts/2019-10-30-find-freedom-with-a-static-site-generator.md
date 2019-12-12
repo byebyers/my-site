@@ -9,7 +9,7 @@ date: 2019-10-30T15:00:00.000+00:00
 
 <!-- iframe.snippet -->
 <div class="">
-<iframe class="" src="[https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4](https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4 "https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4")" allowfullscreen></iframe>
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/hYQ-lW_K4j8](https://www.youtube.com/embed/hYQ-lW_K4j8 "https://www.youtube.com/embed/hYQ-lW_K4j8")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Running a content driven site can become bloated. Losing its appeal for version control, user permissions, and constant updates for plugins. Especially if using a Content Management System like Wordpress. And when your site becomes too large, migration can be an enormous headache for your team.
