@@ -7,6 +7,8 @@ date: 2019-10-30T15:00:00.000+00:00
 
 ---
 
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/hYQ-lW_K4j8](https://www.youtube.com/embed/hYQ-lW_K4j8 "https://www.youtube.com/embed/hYQ-lW_K4j8")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Running a content driven site can become bloated. Losing its appeal for version control, user permissions, and constant updates for plugins. Especially if using a Content Management System like Wordpress. And when your site becomes too large, migration can be an enormous headache for your team.
 
 Like most blogs, many run as Dynamic sites. Every time a user hits sites the page and content are pulled from a database and rendered in real-time. This adds complexity to what should be a simple process. I mean you are only looking at images and text anyway so why should this be rendered every time? Would it make more sense to have it available in the first place?
