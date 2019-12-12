@@ -1,16 +1,22 @@
 ---
 layout: post
 categories: Services
-title: Find freedom with a Static Site Generator!
+title: Why I like Static Site Generators
 sub_heading: Don't get stuck in a site builder's walled garden.
 date: 2019-10-30 15:00:00 +0000
 
 ---
+[https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4](https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4 "https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4")
+
+[visual.mp4](https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4 "visual.mp4")
+
+    <iframe src="https://res.cloudinary.com/db4y7ocbu/video/upload/v1576186122/visual.mp4" frameborder="0" allowfullscreen></iframe>
+
 Running a content driven site can become bloated. Losing its appeal for version control, user permissions, and constant updates for plugins. Especially if using a Content Management System like Wordpress. And when your site becomes too large, migration can be an enormous headache for your team.
 
 Like most blogs, many run as Dynamic sites. Every time a user hits sites the page and content are pulled from a database and rendered in real-time. This adds complexity to what should be a simple process. I mean you are only looking at images and text anyway so why should this be rendered every time? Would it make more sense to have it available in the first place?
 
-Not only that but before rendering happens, the site communicates with every plugin that is connected. Which adds time and more complexity. So when a feature or the site is not patched with the latest update, it breaks. Causing errors or keeps the site from loading. I am sure you are aware of many articles online articles about fixing Word Press's white screen of death.
+Not only that but before rendering happens, the site communicates with every plugin that is connected. Which adds time and more complexity. So when a feature or the site is not patched with the latest update, it can break. Causing errors or keeps the site from loading. I am sure you are aware of many articles online articles about fixing Word Press's white screen of death.
 
 Then, when you are fed up with this system, you realize how painstaking it will be to move your content elsewhere. Like copy and pasting your posts. This is because at first, we find that using site builders may seem easy and there are plenty of them out there. Don't get me wrong, I love the idea of site builders but over time you may find yourself stuck in a walled garden. I found myself in this position when using SquareSpace. When I decided to try to move elsewhere I found myself with a huge problem. Both content and the domain resided on their servers so I could not simply move them to another system. The domain transfer, for example, I had to go through a month-long process to get it moved. My site even ended up going down for several days and it was awful!
 
