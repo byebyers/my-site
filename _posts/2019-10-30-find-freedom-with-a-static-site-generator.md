@@ -25,3 +25,4 @@ What about forms or subscription-based content? Can you even do that? The answer
 So with the simplicity of a static website you can focus most of your energy on your content. No more having to worry about depending on 3rd party services. Or the fact that you need to pay for version control for your database. And you can rest assured that in the long run, you have the ability to change without be having to break your site.
 
 Of course, this is not the best solution for everyone but it should be worth a closer look. There are many kinds of static site generators out there with their own perks and drawbacks. For anyone who wants to spread their resources, it can be a great tool to use across this tech landscape.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hYQ-lW_K4j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
