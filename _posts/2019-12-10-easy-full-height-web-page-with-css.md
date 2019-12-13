@@ -4,14 +4,14 @@ categories: CSS
 title: Easy full height web page with CSS
 sub_heading: 'By using min-height calc we can guarantee the footer will stay at the
   bottom. '
-date: 2019-12-10 13:00:00 -0700
+date: 2019-12-10T20:00:00.000+00:00
 
 ---
 It's easy to find yourself wondering how to get your footer to stick to the bottom of the page. When starting out, you may overlook this component. This is because there may be enough content that the footer will wind up in its rightful place at the bottom. But when you have or want to use white space you may find that the footer is not behaving the way you want.
 
 When I fixed this issue for myself I began to think of my website's in 3 parts. The header, content, and the footer. The part I want to focus on for this exercise is the content section of your site. I found this made the most difference to guaranteeing a full-height page when there was little content available.
 
-![](/uploads/Artboard 1.png)
+![Visual showing how to get the footer to the bottom of the page. ](/uploads/height-visual.gif "CSS full height visual")
 
 This is how I solved it with CSS:
 
