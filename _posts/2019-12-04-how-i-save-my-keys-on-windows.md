@@ -3,7 +3,7 @@ layout: post
 categories: Services
 title: How I save my keys on Windows.
 sub_heading: Saving public and private keys locally.
-date: 2019-12-04 16:00:00 -0700
+date: 2019-12-04T23:00:00.000+00:00
 
 ---
 Saving public and secret keys can be a hassle when you are starting out. Especially if you are new to doing any kind of security for servers. I hope to give a couple of things to think about when utilizing your local machine to save keys. As well as securing them in a way to store online.
@@ -30,17 +30,17 @@ With Cloud-based apps out of the picture then what do we use? For keys and sensi
 
 How to save a LibreOffice Doc with a password
 
-1) Save the doc as you would normally do.
+1. Save the doc as you would normally do.
 
-![](/uploads/shot1.jpg)
+![Saving a libre office doc to add a password](/uploads/shot1.jpg "Saving a LibreOffice Doc")
 
-2) Check the box "Save with password"
+1. Check the box "Save with password"
 
-![](/uploads/shot2.jpg)
+![Check the box "Save with password"](/uploads/shot2.jpg "Save with a password")
 
-3) Add password and click "ok"
+1. Add password and click "ok"
 
-![](/uploads/shot3.jpg)
+![Add password and click "ok"](/uploads/shot3.jpg "Click ok")
 
 Yes, you can do this with Word and if your client prefers that program then so be it. But that means they need to have an office 365 subscription. So having a free option is a better alternative. AND ALWAYS USE A UNIQUE PASSPHRASE FOR GODS SAKE. Here is a doc on why [passphrases are better than passwords](https://www.passworddragon.com/password-vs-passphrase). Can't stress this enough in life. Using old passwords for things increases the chance you use them in a non-secure way. As of the time of this writing, Disney Plus is getting heat from its users who are getting hacked. All by hackers using their victim's old passwords. With that in mind, unique passphrases are better. Please be aware that there is no password resets with these documents. So if you forget your password then you lost the document for good.
 
@@ -60,19 +60,19 @@ Before we finish up I have another solution for you. In case you need to store t
 
 Here is how to use 7-Zip
 
-1) Right-click the folder you want to zip. Then hover over 7-zip then click "Add to archive..."
+1. Right-click the folder you want to zip. Then hover over 7-zip then click "Add to archive..."
 
 ![](/uploads/7zip1.jpg)
 
-2) In the menu, click "Archive Format" and select "zip"
+1. In the menu, click "Archive Format" and select "zip"
 
 ![](/uploads/7zip2.jpg)
 
-3) After that enter your passphrase in the Encryption section. Then make sure the Encryption method is set to "AES-256"
+1. After that enter your passphrase in the Encryption section. Then make sure the Encryption method is set to "AES-256"
 
 ![](/uploads/7zip3.jpg)
 
-4) Once you hit "OK" you will have a zipped folder in the same directory as your original.
+1. Once you hit "OK" you will have a zipped folder in the same directory as your original.
 
 Like the word docs, there are no redos with these passwords and you should use a unique passphrase for safety. Just like we did for creating those password-protected docs above. With those zip folders protected you could store them in a private folder online (at your discretion) or on a hard drive at home. That way you are covered if your machine goes down.
 
