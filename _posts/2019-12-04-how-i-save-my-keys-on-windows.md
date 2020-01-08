@@ -32,15 +32,15 @@ With Cloud-based apps out of the picture then what do we use? For keys and sensi
 
 How to save a LibreOffice Doc with a password
 
-1. Save the doc as you would normally do.
+Save the doc as you would normally do.
 
 ![Saving a libre office doc to add a password](/uploads/shot1.jpg "Saving a LibreOffice Doc")
 
-1. Check the box "Save with password"
+Check the box "Save with password"
 
 ![Check the box "Save with password"](/uploads/shot2.jpg "Save with a password")
 
-1. Add password and click "ok"
+Add password and click "ok"
 
 ![Add password and click "ok"](/uploads/shot3.jpg "Click ok")
 
@@ -62,19 +62,19 @@ Before we finish up I have another solution for you. In case you need to store t
 
 Here is how to use 7-Zip
 
-1. Right-click the folder you want to zip. Then hover over 7-zip then click "Add to archive..."
+Right-click the folder you want to zip. Then hover over 7-zip then click "Add to archive..."
 
 ![](/uploads/7zip1.jpg)
 
-1. In the menu, click "Archive Format" and select "zip"
+In the menu, click "Archive Format" and select "zip"
 
 ![](/uploads/7zip2.jpg)
 
-1. After that enter your passphrase in the Encryption section. Then make sure the Encryption method is set to "AES-256"
+After that enter your passphrase in the Encryption section. Then make sure the Encryption method is set to "AES-256"
 
 ![](/uploads/7zip3.jpg)
 
-1. Once you hit "OK" you will have a zipped folder in the same directory as your original.
+Once you hit "OK" you will have a zipped folder in the same directory as your original.
 
 Like the word docs, there are no redos with these passwords and you should use a unique passphrase for safety. Just like we did for creating those password-protected docs above. With those zip folders protected you could store them in a private folder online (at your discretion) or on a hard drive at home. That way you are covered if your machine goes down.
 
