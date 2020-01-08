@@ -6,6 +6,8 @@ sub_heading: Saving public and private keys locally.
 date: 2019-12-04T23:00:00.000+00:00
 
 ---
+![](/uploads/keys-visual-online.gif)
+
 Saving public and secret keys can be a hassle when you are starting out. Especially if you are new to doing any kind of security for servers. I hope to give a couple of things to think about when utilizing your local machine to save keys. As well as securing them in a way to store online.
 
 First I have to say the following. I am not a security expert, nor do I guarantee that my way is the best. Since you are reading this article, I assume you are already doing your research. So please compare my article with other resources online. You will find something that works for you.
