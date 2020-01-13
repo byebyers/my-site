@@ -26,11 +26,11 @@ To get this service running for your project we need the following.
 
 First, we need to go to [circleci.com](http://circleci.com/) and then sign up (or "go to app" if you already have your account). Then log in with Github or Bitbucket. The reason for this is because you need to link a repository with CircleCi to use their services.
 
-![](/uploads/snap1-min.jpg)
+![Circle CI home page](/uploads/snap1-min.jpg)
 
 From there you will be prompted to set up your first project. If not you can select "Add Projects" on the right menu pane. There you will be shown a list of your repositories from your provider. Click "Set Up Project" for the project that has the Static Site code.
 
-![](/uploads/snap2-min.jpg)
+![Circle CI project page](/uploads/snap2-min.jpg)
 
 Here is where you set up your environment. For Jekyll, I chose Linux as my operating system (most of the time you would use this) and Ruby as the language. Note you should see the warning that says you need to add a config file before building. We will do that next before we click "Start Building". If you did that already by accident it is ok. The build will not work until the config file is added.
 
@@ -278,12 +278,12 @@ After you updated and added your config file you will go back to your CircleCi "
 
 So to add these variables we need to go to jobs in the right menu pane (if you are not already there) and click the gear icon for the new project we just created.
 
-![](/uploads/snap3-min.jpg)
+![Circle CI jobs page](/uploads/snap3-min.jpg)
 
 From there we go to Build Settings on the right side and click "Environment Variables"
 
-![](/uploads/snap4-min-1.jpg)
+![Circle CI project settings page](/uploads/snap4-min-1.jpg)
 
-![](/uploads/snap5-min.jpg)
+![Circle CI environment page](/uploads/snap5-min.jpg)
 
 There is where you add your variables. However, you will need to add the name of the variable in all caps without the $ in front as shown above. The value will be your AWS key. Once these are added then your project should be able to build correctly when changes are made. If you want to rerun a failed build you would click the build number then "Rerun workflow".
