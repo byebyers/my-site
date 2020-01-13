@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: AWS
+categories: Jekyll
 title: Automate Jekyll with CircleCi and AWS Cloudfront
 sub_heading: 'Using CircleCi to take repository updates to build new static pages. '
 date: 2020-01-13 14:00:00 -0700
