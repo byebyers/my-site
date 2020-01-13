@@ -284,6 +284,6 @@ From there we go to Build Settings on the right side and click "Environment Vari
 
 ![Circle CI project settings page](/uploads/snap4-min-1.jpg)
 
-![Circle CI environment page](/uploads/snap5-min.jpg)
+![Circle CI Environments Page](/uploads/snap6-min.jpg)
 
 There is where you add your variables. However, you will need to add the name of the variable in all caps without the $ in front as shown above. The value will be your AWS key. Once these are added then your project should be able to build correctly when changes are made. If you want to rerun a failed build you would click the build number then "Rerun workflow".
