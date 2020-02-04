@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: ''
+categories: SASS
 title: Compile and Install SASS with WSL
 sub_heading: Compile SASS like a pro using the WSL Terminal
 date: 2020-02-03 17:00:00 -0700
