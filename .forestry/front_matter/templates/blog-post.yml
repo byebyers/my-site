@@ -43,5 +43,6 @@ pages:
 - _posts/2019-10-30-find-freedom-with-a-static-site-generator.md
 - _posts/2019-12-04-how-i-save-my-keys-on-windows.md
 - _posts/automate-jekyll-with-circleci-and-aws-cloudfront.md
+- _posts/compile-and-install-sass-with-wsl.md
 - _posts/easy-jpeg-compression-with-windows-subsystem-linux.md
 - _posts/getting-started-with-google-tag-manager.md
