@@ -47,3 +47,4 @@ pages:
 - _posts/compile-and-install-sass-with-wsl.md
 - _posts/easy-jpeg-compression-with-windows-subsystem-linux.md
 - _posts/getting-started-with-google-tag-manager.md
+- _posts/install-node-js-and-npm-on-wsl.md
