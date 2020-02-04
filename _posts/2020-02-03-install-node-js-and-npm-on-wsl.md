@@ -6,6 +6,8 @@ sub_heading: Get the package manager you need on WSL!
 date: 2020-02-03 15:00:00 -0700
 
 ---
+![](/uploads/npm-visual.gif)
+
 Node.js is a popular open-sourced platform for executing server-side Javascript code. Great for building back-end server-side applications. With that, we also need npm, the default package manager for Node.js and one of the greatest tools in your chest!
 
 With WSL I installed these from NodeSource because they maintain a repository of the latest version of Node.js.
@@ -20,7 +22,7 @@ Once that is enabled you can install Node.js and npm by entering
 
     sudo apt install nodejs
 
-You can verify if you have them by entering the following. 
+You can verify if you have them by entering the following.
 
     node --version
 
