@@ -12,15 +12,15 @@ With WSL I installed these from NodeSource because they maintain a repository of
 
 To install Node.js and npm follow these steps.
 
-1. Enable the repository by running this curl command as a user with sudo permissions. If you don't run the command with sudo.
+Enable the repository by running this curl command as a user with sudo permissions. If you don't run the command with sudo.
 
     curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 
-2. Once that is enabled you can install Node.js and npm by entering
+Once that is enabled you can install Node.js and npm by entering
 
     sudo apt install nodejs
 
-3. You can verify if you have them by entering the following.
+You can verify if you have them by entering the following. 
 
     node --version
 
