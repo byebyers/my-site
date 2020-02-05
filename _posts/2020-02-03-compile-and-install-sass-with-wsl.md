@@ -3,16 +3,18 @@ layout: post
 categories: SASS
 title: Compile and Install SASS with WSL
 sub_heading: Compile SASS like a pro using the WSL Terminal
-date: 2020-02-03 17:00:00 -0700
+date: 2020-02-04T00:00:00.000+00:00
 
 ---
+![](/uploads/sass-visual.gif)
+
 I love using SASS because it allows me to break up my CSS and use variables when I need to simplify changes. Whether it be stylistic theme components or web page specific design I find this tool to be essential! It saves time and helps me navigate my CSS when it becomes a monster over the course of development. I highly recommend using SASS for your projects.
 
 So let us install SASS on our WSL environment using npm. If you do not have npm on your WSL environment check out this article. I use sudo to make sure access is granted.
 
     sudo npm install -g sass
 
-Once that is installed we can now use SASS. To give it a shot CD into your directory that has the project. For this example, my directory has index.html and styles.sass in the same folder. The head tag of my index.html page has the following. 
+Once that is installed we can now use SASS. To give it a shot CD into your directory that has the project. For this example, my directory has index.html and styles.sass in the same folder. The head tag of my index.html page has the following.
 
     <head>
       <meta charset="utf-8">
