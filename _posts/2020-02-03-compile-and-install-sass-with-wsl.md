@@ -10,7 +10,7 @@ date: 2020-02-04T00:00:00.000+00:00
 
 I love using SASS because it allows me to break up my CSS and use variables when I need to simplify changes. Whether it be stylistic theme components or web page specific design I find this tool to be essential! It saves time and helps me navigate my CSS when it becomes a monster over the course of development. I highly recommend using SASS for your projects.
 
-So let us install SASS on our WSL environment using npm. If you do not have npm on your WSL environment check out this article. I use sudo to make sure access is granted.
+So let us install SASS on our WSL environment using npm. If you do not have npm on your WSL environment check out this [article](https://www.jacobbyers.me/2020-02-03-install-node-js-and-npm-on-wsl/ "Install Node.js and npm"). I use sudo to make sure access is granted.
 
     sudo npm install -g sass
 
