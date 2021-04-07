@@ -1,9 +1,9 @@
 ---
 layout: post
 categories: Node.js
-title: Install Node.js and npm on WSL
+title: How to install Node.js and npm on WSL
 sub_heading: Get the package manager you need on WSL!
-date: 2020-02-03 15:00:00 -0700
+date: 2020-02-03T22:00:00.000+00:00
 
 ---
 ![](/uploads/npm-visual.gif)
