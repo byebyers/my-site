@@ -2,8 +2,8 @@
 layout: post
 categories: Jekyll
 title: What is a Static Site Generator?
-sub_heading: Understanding the basics of these tools.
-date: 2019-11-11 17:00:00 -0700
+sub_heading: Understanding the basics of static generation.
+date: 2019-11-12T00:00:00.000+00:00
 
 ---
 With the site builders in the world, you may wonder if there are other ways to streamline development? Many agencies rely on tools like Wordpress to create websites but are there other ways? With the same ease of use to generate content?
