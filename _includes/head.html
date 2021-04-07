@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Open Graph Data -->
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="description" name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -15,22 +15,22 @@
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="article">
   <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
-  <meta name="twitter:title" content="{{ page.title }}">
+  <meta property="twitter:title" content="{{ page.title }}">
   {% else %}
   <meta property="og:title" content="{{ site.title }}">
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ site.description }}">
-  <meta name="twitter:title" content="{{ site.title }}">
+  <meta property="twitter:title" content="{{ site.title }}">
   {% endif %}
   {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   {% endif %}
   {% if page.banner_image and page.banner_image != "" %}
   <meta property="og:image" content="{{ page.banner_image }}" />
-  <meta name="twitter:image" content="{{ site.url }}{{ page.banner_image }}">
+  <meta property="twitter:image" content="{{ site.url }}{{ page.banner_image }}">
   {% else %}
   <meta property="og:image" content="{{ "/assets/img/social.jpg" | absolute_url }}" />
-  <meta name="twitter:image" content="{{ "/assets/img/social.jpg" | absolute_url }}" />
+  <meta property="twitter:image" content="{{ "/assets/img/social.jpg" | absolute_url }}" />
   {% endif %}
   <!--     Fonts and icons     -->
   <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absolute_url }}"/>
