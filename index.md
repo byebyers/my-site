@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Jacob Byers
 menu:
   navigation:
     identifier: _index
