@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Services
-title: How I save my keys on Windows.
+title: How I save my public and private keys on Windows.
 sub_heading: Saving public and private keys locally.
 date: 2019-12-04T23:00:00.000+00:00
 
