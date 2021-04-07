@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: CSS
-title: Use CSS to easily make your webpage go full height
+title: Use CSS to easily make a webpage full height
 sub_heading: 'By using min-height calc we can guarantee the footer will stay at the
   bottom. '
 date: 2019-12-10T20:00:00.000+00:00
