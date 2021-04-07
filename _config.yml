@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jacob byers
+title: Jacob byers - Creative & Web Developer
 email: byers.jacob@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Jacob Byers developer portfolio.
+description: An American freelance creative & web developer based in Tempe, Arizona. Focused on digital UX/UI experiences, JAMstack, Shopify, and Website Design. I’ve worked with local companies such as Front Pourch Brewing, Deneau Law Firm, Hubble LLC, and many others.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jacobbyers.me/" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: "/:path/"
