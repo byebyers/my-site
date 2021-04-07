@@ -1,8 +1,8 @@
 ---
 layout: post
 categories: SASS
-title: Compile and Install SASS with WSL
-sub_heading: Compile SASS like a pro using the WSL Terminal
+title: How to Install SASS with WSL
+sub_heading: Compile SASS like a pro using the Windows Subsystem Linux Terminal
 date: 2020-02-04T00:00:00.000+00:00
 
 ---
