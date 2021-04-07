@@ -22,7 +22,7 @@ title: Jacob byers - Creative & Web Developer
 email: byers.jacob@gmail.com
 description: An American freelance creative & web developer based in Tempe, Arizona. Focused on digital UX/UI experiences, JAMstack, Shopify, and Website Design. I’ve worked with local companies such as Front Pourch Brewing, Deneau Law Firm, Hubble LLC, and many others.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.jacobbyers.me/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.jacobbyers.me" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: "/:path/"
 twitter_username: byersjacob
 github_username:  byebyers
