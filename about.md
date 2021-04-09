@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-profile-picture: "/assets/img/new-shot.jpg"
+profile-picture: "/assets/img/jacob-byers.jpg"
 menu:
   navigation:
     weight: 2
