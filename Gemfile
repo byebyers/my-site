@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.0.0"
 gem "html-proofer"
-gem 'nokogiri', '~> 1.10.4'
+gem 'nokogiri', '~> 1.13.6'
 gem 'liquid-c'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
